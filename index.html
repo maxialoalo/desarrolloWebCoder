@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Mi css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="icons/favicon.png" type="image/x-icon">
+    <title>Duki - inicio</title>
+  </head>
+  <body id="bg-img">
+
+    <!-- inicia header -->
+    <header>
+        <!-- inicia nav -->
+        <nav class="navbar navbar-expand-lg" id="botonera">
+            <div class="container-fluid d-flex">
+
+                <!-- inicia logo -->
+                <a class="navbar-brand d-inline" href="index.html">
+                    <img src="/img/logo.png" alt="Logo de Duki" class="logo">
+                </a>
+                <!-- ends logo -->
+
+                <!-- boton hamburguesa -->
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg viewBox="0 0 100 80" width="30" height="30">
+                        <rect width="100" height="10"></rect>
+                        <rect y="30" width="100" height="10"></rect>
+                        <rect y="60" width="100" height="10"></rect>
+                    </svg>
+                </button>
+                <!-- ends boton hamburguesa -->
+
+                <!-- vinculos -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav" >
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                <a class="nav-link" href="pages/musica.html">Música</a>
+                <a class="nav-link" href="pages/Biografia.html">Biografía</a>
+                <a class="nav-link" href="pages/Noticias.html">Noticias</a>
+                <a class="nav-link" href="pages/Galeria.html">Galería</a>
+                <!-- ends vinculos -->
+                </div>
+              </div>
+            </div>
+          </nav>
+        <!-- ends nav -->
+    </header>
+    <!-- ends header -->
+        
+    <!-- inicia main -->
+    <main class="bordeAzul">
+
+        <!-- inicia carousel -->
+        <div id="carouselExampleDark" class="carousel carousel-light slide " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/duki-cantando.png" class="d-block w-100" alt="duki cantando">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/dukiCarousel2.jpg" class="d-block w-100" alt="duki cantando">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/dukiCarousel3.jpg" class="d-block w-100" alt="Duki cantando">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- ends carousel -->
+        <section class="bordeAzul">        
+          <h1 class="d-flexCenter colorWhite">La voz lider del trap Argentino</h1>
+          <div class="colorWhite centrado">
+            <span>
+            <p>¿Te gusta el Duko? ¿Te gusta el rap? ¿Te gusta el Freestyle?</p>
+            </span>
+            <p>¡No lo dudes más! Matenete actualizadx con las últimas noticias</p>
+          </div>
+          <h2 class="d-flexCenter colorWhite">¡Suscribite a nuestro Newsletter!</h2>
+          
+        <!-- inicia formulario -->
+
+          <form >
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label colorWhite">Nombre</label>
+              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Ingresa tu nombre">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label colorWhite">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email">
+            </div>
+              <textarea name="comentarios" class="comentarios" cols="30" rows="10" placeholder="  Dejanos tu comentario"></textarea>
+            </div>
+            <button type="reset" class="btn btn-primary">Borrar</button>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+      </section>
+       <!-- ends formulario -->
+
+    </main>
+    <!-- ends main -->
+
+    <!-- inicia footer -->
+    <footer class="">
+      <div class="footer__copyright centrado">
+          <h3 class="colorWhite">© Duki 2022 | Pagina sin fines comerciales | Desarrollado por Maximiliano Alonso</h3>
+      </div>
+          <nav class="footer__redes">
+          <a href="https://www.facebook.com/maximiliano.alonso.9026" target="_blank">
+              <img src="icons/facebook.png" alt="Logo Facebook" class="footer__nav--img">
+          </a>
+          <a href="https://www.instagram.com/maxialonso.ok/" target="_blank" >
+              <img src="icons/instagram.png" alt="Logo Instagram" class="footer__nav--img">
+          </a>
+          <a href="https://www.linkedin.com/in/maximiliano-adrian-alonso/" target="_blank">
+              <img src="icons/linkedin.png" alt="Logo LinkedIn" class="footer__nav--img">
+          </a>
+          </nav>
+    </footer>
+    <!-- ends footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
