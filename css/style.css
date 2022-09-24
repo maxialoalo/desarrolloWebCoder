@@ -54,6 +54,7 @@ p{
         border-color: white;
     }
 
+
 /*Fin Estilo botonera*/
 
 .logo{
@@ -89,6 +90,13 @@ form{
         height: 100px;
     }
 
+textarea{
+    border-radius: 10px;
+}
+    
+    
+
+@media (min-width:1200px){
     .btn-primary{
         filter: sepia();
         
@@ -99,11 +107,7 @@ form{
         background-color: #1A2867;
         border-color: #1A2867;
     }
-
-    textarea{
-        border-radius: 10px;
-    }
-
+}
 
 /*Fin Estilo formulario*/ 
 
@@ -129,13 +133,17 @@ footer{
         width: 15%;
         margin-left: 40%;
         margin-bottom: 10px;
+    }
+@media (min-width:1200px){
+    .footer__nav--img{
         filter:sepia();
     }
+
 
     .footer__nav--img:hover{
         filter: none;
     }
-
+}
 
 /*Fin Estilo Footer*/
 
@@ -183,7 +191,6 @@ footer{
     "fotoE" 
     "fotoF";
 }
-
 
 @media (min-width:768px){
     #galeria{
