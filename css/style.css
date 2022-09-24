@@ -45,7 +45,8 @@ p{
     #botonera a:hover{
         font-size: 1.9rem;
         text-decoration: underline;
-        color: blueviolet
+        color: blueviolet;
+        filter: sepia();
     }
 
     #botonera button svg{
@@ -89,9 +90,14 @@ form{
     }
 
     .btn-primary{
+        filter: sepia();
+        
+    }
+
+    .btn-primary:hover{
+        filter: none;
         background-color: #1A2867;
         border-color: #1A2867;
-        
     }
 
     textarea{
@@ -103,11 +109,12 @@ form{
 
 /*Inicia Estilo Footer*/
 footer{
-    font-size:2em;   
+    font-size:2em; 
+    margin-top: 5px;;  
 }
 
     .footer__copyright{
-        margin-bottom: 30px ;
+        margin-bottom: 10px ;
         display: flex;
         justify-content: center;
     }
@@ -121,6 +128,12 @@ footer{
     .footer__nav--img{
         width: 15%;
         margin-left: 40%;
+        margin-bottom: 10px;
+        filter:sepia();
+    }
+
+    .footer__nav--img:hover{
+        filter: none;
     }
 
 
@@ -187,11 +200,12 @@ footer{
 @media (min-width:1200px){
     #galeria{
         grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(3,30vh);
+        grid-template-rows: repeat(4,30vh);
         grid-template-areas: 
         "fotoA fotoB fotoC" 
         "fotoA fotoD fotoC" 
-        "fotoA fotoE fotoF";
+        "fotoA fotoE fotoF"
+        "fotoG fotoH fotoI";
     }
 
     #galeria img{
@@ -204,6 +218,24 @@ footer{
 
 }
 /*Fin Galeria grid*/
+
+
+/*Estilo musica*/
+
+.spotify{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;;
+}
+
+.youtube{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*fin estilo musica*/
+
+
 
 
 /* Media query md*/
