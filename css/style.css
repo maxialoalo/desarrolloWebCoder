@@ -69,6 +69,7 @@ p{
 }
 
 
+
 /*Fin Estilo carousel*/
 
 /*Estilo formulario*/
@@ -282,6 +283,10 @@ footer{
 #bg-img{
     background-image: url(../backgrounds/background.png);
     background-color: rgb(1,1,1);
+}
+
+.height100{
+    height: 110%;
 }
 
 /*Fin Clases genéricas*/
