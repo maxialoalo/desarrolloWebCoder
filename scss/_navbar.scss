@@ -1,0 +1,45 @@
+//Estilo botonera
+
+#botonera{
+    background-color: $bgColor;
+    a{
+        color:$fontColor;
+        font-size: 1.8rem;
+        text-decoration: none;
+        margin: 0 10px;
+        background-position: 0% 100%;
+        
+        &:hover{
+            font-size:2rem;
+            text-decoration: underline;
+            color:rgb(192, 172, 172);
+            cursor: pointer;
+        }
+    }
+    button{
+        svg{
+            fill: white;
+            border-color: white;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+    .active{
+        color: rgb(223, 223, 223);
+    }
+}
+
+
+//Fin Estilo botonera
+
+//logo
+.logo{
+    width:90px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+//fin logo
+

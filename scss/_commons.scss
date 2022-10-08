@@ -1,0 +1,64 @@
+//font
+$fontMain: 'Roboto', sanz-serif;
+$fontColor: #ffffff;
+
+//sizing
+$w-100:100%;
+$w-75:75%;
+$w-50:50%;
+$w-25:25%;
+
+$h-100:100%;
+
+//font-size
+$fontSizeXl: 3rem;
+$fontSizeL:2.5rem;
+$fontSizeM:1.5rem;
+$fontSizeS:1rem;
+$cero:0;
+
+//fontweight
+$textRegular:400;
+$textLight:300;
+$textBold:700;
+
+//colors
+$bgImg: url(../backgrounds/background.png);
+
+$bgColor:rgb(0,0,0);
+$primaryColor: #1A2867;
+$secondaryColor:#782594;
+
+
+//mixings
+
+@mixin media{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 5px solid #1A2867;
+}
+
+@mixin hover{
+    filter: none;
+    cursor: pointer;
+}
+//Clases genéricas
+.centrado{
+    text-align: center;
+}
+
+.colorWhite{
+    color:$fontColor;
+}
+
+
+#bg-img{
+    background-image: $bgImg;
+    background-color: rgb(1,1,1);
+}
+
+.height100{
+    height: $h-100;
+}
+
+//Fin Clases genéricas

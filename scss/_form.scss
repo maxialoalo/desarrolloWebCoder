@@ -1,0 +1,21 @@
+//form
+form{
+    margin: $cero auto;
+    width: $w-75;
+    font-size: 1.4rem;
+    background-color: $secondaryColor;
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid $primaryColor;
+    .form-label{
+        font-size: 1.4rem;
+    }
+    .comentarios{
+        width: $w-100;
+        height: 100px;
+    }
+    textarea{
+        border-radius: 10px;
+    }
+    
+}

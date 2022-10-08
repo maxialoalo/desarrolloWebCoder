@@ -1,0 +1,134 @@
+//280
+@media (min-width:280px) {
+
+    //boton form
+    .btn-primary {
+        filter: none;
+        background: linear-gradient(to top, #1A2867, #782594);
+        border: none;
+    }
+
+    //spotify
+    .spotify {
+        iframe {
+            @include media();
+        }
+    }
+
+    .youtube {
+        @include media();
+    }
+
+    .btn-primary {
+        background: linear-gradient(to top, #1A2867, #782594);
+        filter: sepia();
+        border-radius: 10px;
+        width: 20%;
+
+        &:hover {
+            @include hover();
+        }
+    }
+    #mainBio{
+        iframe{
+            width:560px /600px *100%;
+        
+        }
+    }
+}
+
+
+//576
+@media (min-width:576px) {
+    .btn-primary {
+        width: 6%;
+    }
+
+    .spotify {
+        iframe {
+            display: flex;
+            width: 50%;
+            margin-bottom: 20px;
+            border: 5px solid $primaryColor;
+        }
+    }
+
+
+}
+
+
+//768
+
+@media (min-width:768px) {
+
+
+    form {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .bordeAzul {
+        border: 1em solid $primaryColor;
+    }
+    #mainBio{
+        iframe{
+            width: 560px;
+        }
+    }
+
+}
+
+
+
+
+//1200
+
+@media (min-width:1200px) {
+
+    //Inicia Footer
+
+    .footer__nav--img {
+        filter: sepia();
+
+        &:hover {
+            filter: none
+        }
+    }
+
+
+    //Ends Footer
+
+
+
+    //btn form
+
+    .btn-primary {
+        filter: sepia();
+
+        &:hover {
+            @include hover();
+            background: linear-gradient(to top, #1A2867, #782594);
+            border: none;
+        }
+    }
+
+    //ends btn form
+
+
+    //spotify
+    .spotify {
+        display: flex;
+
+        iframe {
+            justify-content: space-between;
+            margin: 10px;
+            width: 25%;
+        }
+    }
+
+    .youtube {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
