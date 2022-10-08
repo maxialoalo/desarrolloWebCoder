@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+    font-size: 62.5%;
+    
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 35px;
+}
+
+h2{
+    font-size: 2.5rem;
+    margin-top: 50px;
+    margin-bottom: 18px;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+/*Estilo botonera*/
+
+#botonera{
+    background-color: rgb(0,0,0);
+    
+}
+
+#botonera .active{
+    color: rgb(223, 223, 223);
+}
+
+    #botonera a{
+        color: white;
+        font-size: 1.8rem;
+        text-decoration: none;
+        margin: 0 10px;
+        background-position: 0% 100%;
+    }
+
+    #botonera a:hover{
+        font-size: 1.9rem;
+        text-decoration: underline;
+        color: blueviolet;
+        filter: sepia();
+    }
+
+    #botonera button svg{
+        fill: white;
+        border-color: white;
+    }
+
+
+/*Fin Estilo botonera*/
+
+.logo{
+    width:90px;
+}
+
+/*Estilo carousel*/
+
+#carouselExampleDark{
+    margin-top: 35px;
+    width:100%;
+}
+
+
+
+/*Fin Estilo carousel*/
+
+/*Estilo formulario*/
+
+form{
+    margin: 0 auto;
+    width: 100%;
+    font-size: 1.4rem;
+    background-color: blueviolet;
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid #1A2867;
+}
+    .form-label{
+        font-size: 1.4rem;
+    }
+    .comentarios{
+        width: 100%;
+        height: 100px;
+    }
+
+textarea{
+    border-radius: 10px;
+}
+    
+.btn-primary{
+    background:linear-gradient(to top, #1A2867,#782594);
+    border:none;
+}
+@media (min-width:1200px){
+    .btn-primary{
+        filter: sepia();
+        
+    }
+
+    .btn-primary:hover{
+        filter: none;
+        background: linear-gradient(to top, #1A2867,#253994);
+        border:none;
+    }
+}
+
+/*Fin Estilo formulario*/ 
+
+/*Inicia Estilo Footer*/
+footer{
+    font-size:2em; 
+    margin-top:5px;  
+}
+
+    .footer__copyright{
+        margin-bottom: 10px ;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__redes{        
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .footer__nav--img{
+        width: 15%;
+        margin-left: 40%;
+        margin-bottom: 10px;
+    }
+@media (min-width:1200px){
+    .footer__nav--img{
+        filter:sepia();
+    }
+
+
+    .footer__nav--img:hover{
+        filter: none;
+    }
+}
+
+/*Fin Estilo Footer*/
+
+/*Galeria grid*/
+#galeria img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.fot-a{
+    grid-area: fotoA;
+}
+
+.fot-b{
+   grid-area: fotoB;
+}
+
+.fot-c{
+    grid-area: fotoC;
+}
+
+.fot-d{
+    grid-area: fotoD;
+}
+
+.fot-e{
+    grid-area: fotoE;
+}
+
+.fot-f{
+    grid-area: fotoF;
+}
+
+#galeria{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6,300px);
+    grid-template-areas: 
+    "fotoA" 
+    "fotoB" 
+    "fotoC" 
+    "fotoD" 
+    "fotoE" 
+    "fotoF";
+}
+
+@media (min-width:768px){
+    #galeria{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,300px);
+        grid-template-areas: 
+        "fotoA fotoB" 
+        "fotoA fotoC" 
+        "fotoA fotoD" 
+        "fotoE fotoF";
+    }
+}
+
+@media (min-width:1200px){
+    #galeria{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(4,30vh);
+        grid-template-areas: 
+        "fotoA fotoB fotoC" 
+        "fotoA fotoD fotoC" 
+        "fotoA fotoE fotoF"
+        "fotoG fotoH fotoI";
+    }
+
+    #galeria img{
+        filter: grayscale(3);
+    }
+
+    #galeria img:hover{
+        filter:none;
+    }
+
+}
+/*Fin Galeria grid*/
+
+
+/*Estilo musica*/
+
+.spotify{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;;
+}
+
+.youtube{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*fin estilo musica*/
+
+
+
+
+/* Media query md*/
+
+@media(min-width:768px){
+    #carouselExampleDark{
+        width: 75%;
+        margin:auto;
+    }
+
+    form{
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .bordeAzul{
+        border: 1em solid #1A2867;
+    }
+}
+/*Fin Media query md*/
+
+
+/*Clases genéricas*/
+.centrado{
+    text-align: center;
+}
+
+.colorWhite{
+    color:white
+}
+
+.d-flexCenter{
+    display: flex;
+    justify-content: center;
+}
+
+#bg-img{
+    background-image: url(../backgrounds/background.png);
+    background-color: rgb(1,1,1);
+}
+
+.height100{
+    height: 110%;
+}
+
+/*Fin Clases genéricas*/
