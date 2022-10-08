@@ -1,0 +1,74 @@
+//1200
+
+@media (min-width:1200px){
+
+//Inicia Footer
+
+.footer__nav--img{
+    filter:sepia();
+    &:hover{
+        filter:none
+    }
+}
+
+
+//Ends Footer
+
+//btn form
+
+.btn-primary{
+    filter: sepia();    
+    &:hover{
+        filter: none;
+        background:linear-gradient(to top, #1A2867,#782594);
+        border:none;
+    }
+}
+//ends btn form
+
+//inicia galeria
+#galeria{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,30vh);
+    grid-template-areas: 
+    "fotoA fotoB fotoC" 
+    "fotoA fotoD fotoC" 
+    "fotoA fotoE fotoF"
+    "fotoG fotoH fotoI";
+    img{
+        filter: grayscale(3);
+        &:hover{
+            filter:none;
+        }
+    }
+}
+//ends galeria
+}
+
+
+//768
+
+@media (min-width:768px){
+#galeria{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,300px);
+    grid-template-areas: 
+    "fotoA fotoB" 
+    "fotoA fotoC" 
+    "fotoA fotoD" 
+    "fotoE fotoF";
+}
+#carouselExampleDark{
+    width: $w-75;
+    margin:auto;
+}
+
+form{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.bordeAzul{
+    border: 1em solid $primaryColor;
+}
+}

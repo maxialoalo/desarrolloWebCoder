@@ -1,0 +1,52 @@
+//font
+$fontMain: 'Roboto', sanz-serif;
+$fontColor: #ffffff;
+
+//sizing
+$w-100:100%;
+$w-75:75%;
+$w-50:50%;
+$w-25:25%;
+
+$h-100:100%;
+
+//font-size
+$fontSizeXl: 3rem;
+$fontSizeL:1.8rem;
+$fontSizeM:1.2rem;
+$fontSizeS:0.8rem;
+$cero:0;
+
+//fontweight
+$textRegular:400;
+$textLight:300;
+$textBold:700;
+
+//colors
+$bgImg: url(../backgrounds/background.png);
+
+$bgColor:rgb(0,0,0);
+$primaryColor: #1A2867;
+$secondaryColor:#782594;
+
+
+//Clases genéricas
+.centrado{
+    text-align: center;
+}
+
+.colorWhite{
+    color:$fontColor;
+}
+
+
+#bg-img{
+    background-image: $bgImg;
+    background-color: rgb(1,1,1);
+}
+
+.height100{
+    height: $h-100;
+}
+
+//Fin Clases genéricas

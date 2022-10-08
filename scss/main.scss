@@ -1,0 +1,37 @@
+// imports
+
+@import "_commons";
+@import "_text";
+@import "_mixings";
+@import "navbar";
+@import "_form";
+@import "_footer";
+@import "_galeria";
+@import "_musica";
+@import "_noticias";
+@import "_biografia";
+@import "_media";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+*{
+    margin: $cero;
+    padding: $cero;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+    font-size: 62.5%;
+    
+}
+
+
+/*Estilo carousel*/
+
+#carouselExampleDark{
+    margin-top: 35px;
+    width:$w-100;
+}
+
+/*Fin Estilo carousel*/
+
