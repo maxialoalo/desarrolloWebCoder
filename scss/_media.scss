@@ -1,59 +1,21 @@
 //280
+
 @media (min-width:280px) {
-
-    //boton form
-    .btn-primary {
-        filter: none;
-        background: linear-gradient(to top, #1A2867, #782594);
-        border: none;
-    }
-
-    //spotify
-    .spotify {
-        iframe {
-            @include media();
-        }
-    }
-
-    .youtube {
-        @include media();
-    }
-
-    .btn-primary {
-        background: linear-gradient(to top, #1A2867, #782594);
-        filter: sepia();
-        border-radius: 10px;
-        width: 20%;
-
-        &:hover {
-            @include hover();
-        }
-    }
-    #mainBio{
-        iframe{
-            width:560px /600px *100%;
-        
-        }
-    }
+    @include mediaQ280();
 }
-
 
 //576
 @media (min-width:576px) {
     .btn-primary {
         width: 6%;
     }
-
+    @include mediaQ280();
     .spotify {
         iframe {
             display: flex;
             width: 50%;
-            margin-bottom: 20px;
-            border: 5px solid $primaryColor;
         }
     }
-
-
 }
 
 

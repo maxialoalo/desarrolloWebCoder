@@ -30,18 +30,7 @@ $primaryColor: #1A2867;
 $secondaryColor:#782594;
 
 
-//mixings
 
-@mixin media{
-    width: 100%;
-    margin-bottom: 20px;
-    border: 5px solid #1A2867;
-}
-
-@mixin hover{
-    filter: none;
-    cursor: pointer;
-}
 //Clases genéricas
 .centrado{
     text-align: center;

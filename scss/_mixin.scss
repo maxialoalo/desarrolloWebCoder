@@ -1,0 +1,76 @@
+//mixings
+
+
+//yt y spoty
+@mixin multimedia {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 5px solid #1A2867;
+}
+
+//mediaQuerys
+
+@mixin mediaQ280 {
+
+    //boton form
+    .btn-primary {
+        filter: none;
+        background: linear-gradient(to top, #1A2867, #782594);
+        border: none;
+    }
+
+    //spotify
+    .spotify {
+        iframe {
+            @include multimedia();
+        }
+    }
+
+    .youtube {
+        @include multimedia();
+    }
+
+    //boton form
+    .btn-primary {
+        filter: none;
+        background: linear-gradient(to top, #1A2867, #782594);
+        border: none;
+    }
+
+    //spotify
+    .spotify {
+        iframe {
+            @include multimedia();
+        }
+    }
+
+    .youtube {
+        @include multimedia();
+    }
+
+    .btn-primary {
+        background: linear-gradient(to top, #1A2867, #782594);
+        filter: sepia();
+        border-radius: 10px;
+        width: 20%;
+
+        &:hover {
+            @include hover();
+        }
+    }
+
+    #mainBio {
+        iframe {
+            width: 560px /600px *100%;
+
+        }
+    }
+}
+
+//hover
+
+
+@mixin hover{
+    filter: none;
+    cursor: pointer;
+}
