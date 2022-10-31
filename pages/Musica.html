@@ -46,13 +46,13 @@
                 <!-- ends boton hamburguesa -->
 
                 <!-- vinculos -->
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse text-end justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                         <a class="nav-link" href="musica.html">Música</a>
-                        <a class="nav-link" href="Biografia.html">Biografía</a>
-                        <a class="nav-link" href="Noticias.html">Noticias</a>
-                        <a class="nav-link" href="Galeria.html">Galería</a>
+                        <a class="nav-link" href="biografia.html">Biografía</a>
+                        <a class="nav-link" href="noticias.html">Noticias</a>
+                        <a class="nav-link" href="galeria.html">Galería</a>
                         <!-- ends vinculos -->
                     </div>
                 </div>
@@ -63,39 +63,36 @@
     <!-- ends header -->
 
     <!-- inicia main -->
-    <main>
-        <section class="spotify">
+    <main id="musica">
+
             <iframe style="border-radius:12px"
                 src="https://open.spotify.com/embed/album/6anO6Uh11TivGpTI56aKCH?utm_source=generator&theme=0"
-                height="380" frameBorder="0" allowfullscreen=""
+                frameBorder="0" allowfullscreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy" class="duoM"></iframe>
+                loading="lazy" class="music1"></iframe>
 
             <iframe style="border-radius:12px"
                 src="https://open.spotify.com/embed/album/48vGyeerQqM7mWU0JzRkAl?utm_source=generator&theme=0"
-                height="380" frameBorder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy" class="duoM"></iframe>
-
-            <iframe style="border-radius:12px"
-                src="https://open.spotify.com/embed/album/0gH6vyfRwVv02eWLgoi6Dm?utm_source=generator" height="380"
                 frameBorder="0" allowfullscreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"></iframe>
+                loading="lazy" class="music2"></iframe>
+
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/album/0gH6vyfRwVv02eWLgoi6Dm?utm_source=generator"
+                frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy" class="music3"></iframe>
 
             <iframe style="border-radius:12px"
                 src="https://open.spotify.com/embed/album/3MKQjYpaES80tFP7Qo2zH0?utm_source=generator&theme=0"
-                height="380" frameBorder="0" allowfullscreen=""
+                frameBorder="0" allowfullscreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"></iframe>
+                loading="lazy" class="music4"></iframe>
 
-        </section>
-
-        <section class="youtube centrado">
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/ee6Bs81kxsY"
+            <iframe src="https://www.youtube.com/embed/ee6Bs81kxsY"
                 title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+                allow="accelerometer; controls; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen class="youtube centrado music5"></iframe>
         </section>
     </main>
     <!-- ends main -->
@@ -106,7 +103,7 @@
     </aside>
 
     <!-- inicia footer -->
-    <footer>
+    <footer class="footer">
         <div class="footer__copyright centrado">
             <h3 class="colorWhite">© Duki 2022 | Pagina sin fines comerciales | Desarrollado por Maximiliano Alonso</h3>
         </div>

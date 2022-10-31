@@ -2,6 +2,42 @@
 
 @media (min-width:280px) {
     @include mediaQ280();
+    #musica {
+        display: grid;
+        .music1{
+            grid-area: music1;
+        }
+        .music2{
+            grid-area: music2;
+        }
+        .music3{
+            grid-area: music3;
+        }
+        .music4{
+            grid-area: music4;
+        }
+        .music5{
+            grid-area: music5;
+        }
+        .footer{
+            grid-area: music6;
+        }
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5);
+        grid-gap: 50px;
+        grid-template-areas: 
+        "music1" 
+        "music2" 
+        "music3" 
+        "music4" 
+        "music5"
+         ;
+        iframe{
+            width: 100%;
+            height: 75vh;
+        }
+    }
+    
 }
 
 //576
@@ -10,11 +46,17 @@
         width: 6%;
     }
     @include mediaQ280();
-    .spotify {
-        iframe {
-            display: flex;
-            width: 50%;
-        }
+    #musica{
+        display: grid;
+        grid-template-columns: repeat(2,45%);
+        grid-template-rows: repeat(3,75vh);
+        grid-gap: 50px;
+        grid-template-areas: 
+        "music1 music2" 
+        "music3 music4" 
+        "music5 music5"
+        ;
+        justify-content: center;
     }
 }
 
@@ -48,6 +90,18 @@
 @media (min-width:1200px) {
 
     //Inicia Footer
+    #musica{
+        grid-template-columns:repeat(3,22%);
+        grid-template-rows: repeat(2,100vh);
+        grid-gap: 50px;
+        grid-template-areas: 
+        "music1 music2 music3 music4" 
+        "music5 music5 music5 music5";
+        iframe{
+            width: 100%;
+            height: 100vh;
+        }
+    }
 
     .footer__nav--img {
         filter: sepia();
@@ -73,24 +127,5 @@
             border: none;
         }
     }
-
-    //ends btn form
-
-
-    //spotify
-    .spotify {
-        display: flex;
-
-        iframe {
-            justify-content: space-between;
-            margin: 10px;
-            width: 25%;
-        }
-    }
-
-    .youtube {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
 }
+    //ends btn form
