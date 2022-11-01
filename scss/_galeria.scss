@@ -40,8 +40,8 @@
   @media (min-width: 768px) {
     #galeria {
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(4, 300px);
-      grid-template-areas: "fotoA fotoB" "fotoA fotoC"  "fotoA fotoD"  "fotoE fotoF";
+      grid-template-rows: repeat(5, 300px);
+      grid-template-areas: "fotoA fotoB" "fotoA fotoC"  "fotoI fotoD"  "fotoE fotoF" "fotoG fotoH";
     }
   }
   
