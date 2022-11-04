@@ -8,7 +8,11 @@
         margin:3% 10%;
 
     }
+    
     img{
         width: 70%;
+    }
+    img:hover{
+        filter: opacity(.9);
     }
 }

@@ -364,7 +364,16 @@ footer .footer__nav--img {
 .biografia img {
   width: 70%;
 }
+.biografia img:hover {
+  filter: opacity(0.9);
+}
 
+@media (min-width: 1200px) {
+  .article:hover {
+    width: 91.9%;
+    background: white;
+  }
+}
 @media (min-width: 576px) {
   #noticias .columns {
     display: flex;
