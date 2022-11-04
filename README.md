@@ -17,3 +17,8 @@ El mensaje que dió en ese momento la web de spotify oficial es:
 *No soy el mejor diseñando pero le puse mucho cariño para que el sitio salga lo más estético posible (ya voy a tomar curso de ux ui)
 
 *Espero que disfrutes mirando mi página, muchas gracias por acompañar este hermoso camino de aprendizaje, lo disfruté mucho :)
+
+
+// Link de servidor netlify: https://63649210679a30000ace43f9--stupendous-licorice-c348be.netlify.app/
+
+// Link de github pages: https://maxialoalo.github.io/desarrolloWebCoder/
