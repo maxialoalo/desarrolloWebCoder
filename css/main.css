@@ -84,6 +84,59 @@ p {
     width: 100%;
     height: 75vh;
   }
+  #error {
+    text-align: center;
+    margin: 20px;
+  }
+  #error img {
+    width: 100%;
+    margin-left: auto;
+  }
+  #error h1 {
+    font-size: 2.5rem;
+  }
+  #error a {
+    font-size: 1.5rem;
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    /* Created with https://www.css-gradient.com */
+    color: transparent;
+    background-image: linear-gradient(to bottom right, #0176fb, #01e1ff);
+    -webkit-background-clip: text;
+            background-clip: text;
+  }
+  #error .animacionBoliche {
+    text-decoration: none;
+    color: transparent;
+    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-animation: color 1s linear infinite;
+            animation: color 1s linear infinite;
+    background-size: 500%;
+  }
+  @-webkit-keyframes color {
+    from {
+      background-position: 0% 50%;
+    }
+    to {
+      background-position: 100% 50%;
+    }
+  }
+  @keyframes color {
+    from {
+      background-position: 0% 50%;
+    }
+    to {
+      background-position: 100% 50%;
+    }
+  }
+  #degrade {
+    border-radius: 3%;
+    background: #5624C6;
+    background: linear-gradient(to bottom right, #5624C6, #955354);
+  }
 }
 @media (min-width: 576px) {
   .btn-primary {
@@ -115,6 +168,12 @@ p {
     grid-template-areas: "music1 music2" "music3 music4" "music5 music5";
     justify-content: center;
   }
+  #error img {
+    width: 90%;
+  }
+  #error a {
+    font-size: 2.5rem;
+  }
 }
 @media (min-width: 768px) {
   form {
@@ -126,6 +185,9 @@ p {
   }
   #mainBio iframe {
     width: 560px;
+  }
+  #error img {
+    width: 75%;
   }
 }
 @media (min-width: 1200px) {
@@ -153,6 +215,9 @@ p {
     cursor: pointer;
     background: linear-gradient(to top, #1A2867, #782594);
     border: none;
+  }
+  #error img {
+    width: 60%;
   }
 }
 #botonera {
