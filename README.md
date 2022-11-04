@@ -12,13 +12,16 @@ En caso de estar caída se puede chequear en "https://open.spotify.com/artist/1b
 El mensaje que dió en ese momento la web de spotify oficial es: 
 "upstream connect error or disconnect/reset before headers. reset reason: connection failure, transport failure reason: delayed connect error: 111"
 
+//Sección música y biografía
+*Estas secciones son bastante pesadas por el contenido multimedia y además la de Biografia contiene animaciones, tarda a veces en cargar el contenido. 
+
 
 //
-*No soy el mejor diseñando pero le puse mucho cariño para que el sitio salga lo más estético posible (ya voy a tomar curso de ux ui)
+*No soy el mejor diseñando pero le puse mucho cariño para que el sitio salga lo más estético posible (ya voy a tomar cursos de ux ui), lo dí todo para quedar en el top 10 ojalá alcance.
 
 *Espero que disfrutes mirando mi página, muchas gracias por acompañar este hermoso camino de aprendizaje, lo disfruté mucho :)
 
 
-// Link de servidor netlify: https://63649210679a30000ace43f9--stupendous-licorice-c348be.netlify.app/
+// Link de servidor netlify: https://dukito.netlify.app/
 
 // Link de github pages: https://maxialoalo.github.io/desarrolloWebCoder/
