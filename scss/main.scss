@@ -17,22 +17,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 
-*{
+* {
     margin: $cero;
     padding: $cero;
     box-sizing: border-box;
     font-family: "roboto", sans-serif;
     font-size: 62.5%;
-    
+
 }
 
 
 /*Estilo carousel*/
-#carouselExampleDark{
+#carouselExampleDark {
     margin-top: 35px;
-    width:75%;
+    width: $-w75;
     margin: auto;
 }
 
 /*Fin Estilo carousel*/
-

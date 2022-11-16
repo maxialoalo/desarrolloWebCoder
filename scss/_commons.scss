@@ -4,59 +4,64 @@ $fontColor: #ffffff;
 
 //sizing
 
-$w-100:100%;
-$w-75:75%;
-$w-50:50%;
-$w-25:25%;
+$w-100: 100%;
+$w-75: 75%;
+$w-50: 50%;
+$w-25: 25%;
 
-$h-100:100%;
+$h-100: 100%;
 
 
 //font-size
 $fontSizeXl: 3rem;
-$fontSizeL:2.5rem;
-$fontSizeM:1.5rem;
-$fontSizeS:1rem;
-$cero:0;
+$fontSizeL: 2.5rem;
+$fontSizeM: 1.5rem;
+$fontSizeS: 1rem;
+$cero: 0;
 
 //fontweight
-$textRegular:400;
-$textLight:300;
-$textBold:700;
+$textRegular: 400;
+$textLight: 300;
+$textBold: 700;
 
 //colors
 $bgImg: url(../backgrounds/background.png);
 
-$bgColor:rgb(0,0,0);
+$bgColor: rgb(0, 0, 0);
 $primaryColor: #1A2867;
-$secondaryColor:#782594;
+$secondaryColor: #782594;
 
 //Filtros
-$opacity:opacity(.5);
+$opacity: opacity(.5);
 
+$center: center;
+$cover: cover;
 
 //Clases genéricas
-.centrado{
-    text-align: center;
+.centrado {
+    text-align: $center;
 }
 
-.colorWhite{
-    color:$fontColor;
+.colorWhite {
+    color: $fontColor;
 }
 
 
-#bg-img{
+#bg-img {
     background-image: $bgImg;
-    background-color: rgb(1,1,1);
+    background-color: rgb(1, 1, 1);
 }
 
-.height100{
+.height100 {
     height: $h-100;
 }
- 
-.object-fit{
-    object-fit: cover;
+
+.object-fit {
+    object-fit: $cover;
 }
 
+.marginBottom{
+    margin-bottom: 20px;
+}
 
 //Fin Clases genéricas
