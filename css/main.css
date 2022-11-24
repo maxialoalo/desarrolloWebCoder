@@ -152,9 +152,6 @@ p {
   .bordeAzul {
     border: 1em solid #1A2867;
   }
-  #mainBio iframe {
-    width: 560px;
-  }
   #error img {
     width: 75%;
   }
@@ -326,6 +323,11 @@ footer .footer__nav--img {
 }
 .biografia img:hover {
   filter: opacity(0.9);
+}
+
+#background {
+  background-image: url(../backgrounds/background.webp);
+  background-size: 100%;
 }
 
 @media (min-width: 1200px) {
