@@ -3,47 +3,7 @@
 @media (min-width:280px) {
     @include mediaQ280();
 
-    #musica {
-        display: grid;
-
-        .music1 {
-            grid-area: music1;
-        }
-
-        .music2 {
-            grid-area: music2;
-        }
-
-        .music3 {
-            grid-area: music3;
-        }
-
-        .music4 {
-            grid-area: music4;
-        }
-
-        .music5 {
-            grid-area: music5;
-        }
-
-        .footer {
-            grid-area: music6;
-        }
-
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(5);
-        grid-gap: 50px;
-        grid-template-areas: "music1"
-        "music2"
-        "music3"
-        "music4"
-        "music5"
-        ;
-
-        iframe {
-            width: $w-100;
-            height: 75vh;
-        }
+    
     }
 
     //error
@@ -99,7 +59,7 @@
         background: linear-gradient(to bottom right, #5624C6, #955354);
 
     }
-}
+
 
 
 //576
@@ -110,17 +70,6 @@
 
     @include mediaQ280();
 
-    #musica {
-        display: grid;
-        grid-template-columns: repeat(2, 45%);
-        grid-template-rows: repeat(3, 75vh);
-        grid-gap: 50px;
-        grid-template-areas:
-            "music1 music2"
-            "music3 music4"
-            "music5 music5"
-        ;
-        justify-content: center;
     }
 
     //error
@@ -133,12 +82,13 @@
             font-size: $fontSizeL;
         }
     }
-}
+
 
 
 //768
 
 @media (min-width:768px) {
+
 
 
     form {
@@ -162,36 +112,12 @@
             width: 75%;
         }
     }
-
-    #musica{
-        .youtube{
-            width: 75%;
-            margin: auto;
-        }
-    }
 }
 
 
 
 
-//1200
 
-@media (min-width:1200px) {
-
-    //inicia musica
-    #musica {
-        grid-template-columns: repeat(3, 22%);
-        grid-template-rows: repeat(2, 100vh);
-        grid-gap: 50px;
-        grid-template-areas:
-            "music1 music2 music3 music4"
-            "music5 music5 music5 music5";
-
-        iframe {
-            width: 100%;
-            height: 100vh;
-        }
-    }
 
     //inicia footer
     .footer__nav--img {
@@ -227,4 +153,3 @@
             width: 60%;
         }
     }
-}

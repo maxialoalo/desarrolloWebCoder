@@ -11,6 +11,7 @@
 @import "_galeria";
 @import "_biografia";
 @import "_noticias";
+@import "_musica";
 
 
 
@@ -30,7 +31,7 @@
 /*Estilo carousel*/
 #carouselExampleDark {
     margin-top: 35px;
-    width: $-w75;
+    width: 75%;
     margin: auto;
 }
 
