@@ -478,7 +478,7 @@ footer .footer__nav--img {
   transition: all 0.25s;
 }
 #musica .contenedor .card :hover {
-  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 22px 26px rgba(0, 0, 0, 0.2);
 }
 #musica .contenedor .card img {
   width: 75%;
